@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*='col-'] {
+    float: left;
+    /* border: 1px solid dimgray; */
+}
+
+.container {
+    width: 65%;
+}
+
+.row:after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+.main-title {
+    padding: 35px 0;
+    text-align: center;
+}
+
+.title-info {
+    padding-top: 25px;
+}
+
+.section-title {
+    padding: 30px 0;
+}
+
+.skills-section {
+    padding: 0 50px;
+}
+
+.edu-title {
+    padding: 10px 0;
+}
+
+.singnature {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.p-15 {
+    padding: 3px 0;
+}
+
+.h-50 {
+    height: 50px;
+}
+
+.h-100 {
+    height: 100px;
+}
+
+.h-125 {
+    height: 125px;
+}
+
+.h-300 {
+    height: 300px;
+}
+
+.h-500 {
+    height: 500px;
+}
+
+@media screen and (max-width: 608px) {
+    .col-sm-1 {
+        width: 8.33%;
+    }
+
+    .col-sm-2 {
+        width: 16.66%;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+    }
+
+    .col-sm-4 {
+        width: 33.33%;
+    }
+
+    .col-sm-5 {
+        width: 41.66%;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+    }
+
+    .col-sm-7 {
+        width: 58.33%;
+    }
+
+    .col-sm-8 {
+        width: 66.66%;
+    }
+
+    .col-sm-9 {
+        width: 75%;
+    }
+
+    .col-sm-10 {
+        width: 83.33%;
+    }
+
+    .col-sm-11 {
+        width: 91.66%;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .title-info {
+        text-align: center;
+    }
+
+    .profile-image {
+        width: 50%;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+
+    .skills-section {
+        padding: 0 80px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}

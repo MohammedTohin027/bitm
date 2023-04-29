@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+}
+.container{
+    width: 80%;
+}
+.container-fluid{
+    width: 100%;
+}
+.col-1{ width: 8.33%; }
+.col-2{ width: 16.66%; }
+.col-3{ width: 25%; }
+.col-4{ width: 33.33%; }
+.col-5{ width: 41.66%; }
+.col-6{ width: 50%; }
+.col-7{ width: 58.33%; }
+.col-8{ width: 66.66%; }
+.col-9{ width: 75%; }
+.col-10{ width: 83.33%; }
+.col-11{ width: 91.66%; }
+.col-12{ width: 100%; }
+
+[class*='col-']{
+    float: left;
+    border: 1px solid grey;
+}
+
+.h-50{ height: 50px; }
+.h-100{ height: 100px; }
+.h-200{ height: 200px; }
+.h-300{ height: 300px; }
+.h-400{ height: 400px; }
+.h-500{ height: 500px; }
+.h-search{
+    display: none;
+}
+@media screen and (max-width: 767px) {
+    body{
+        background: yellowgreen;
+    }
+    .col-xs-1{ width: 8.33%; }
+    .col-xs-2{ width: 16.66%; }
+    .col-xs-3{ width: 25%; }
+    .col-xs-4{ width: 33.33%; }
+    .col-xs-5{ width: 41.66%; }
+    .col-xs-6{ width: 50%; }
+    .col-xs-7{ width: 58.33%; }
+    .col-xs-8{ width: 66.66%; }
+    .col-xs-9{ width: 75%; }
+    .col-xs-10{ width: 83.33%; }
+    .col-xs-11{ width: 91.66%; }
+    .col-xs-12{ width: 100%; }
+
+    .h-xs-50{ height: 50px; }
+    .h-xs-100{ height: 100px; }
+    .h-xs-200{ height: 200px; }
+    .h-xs-300{ height: 300px; }
+    .h-xs-400{ height: 400px; }
+    .h-xs-500{ height: 500px; }
+
+    .search{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 678px) and (max-width: 991px) {
+    body{
+        background: red;
+    }
+    .col-sm-1{ width: 8.33%; }
+    .col-sm-2{ width: 16.66%; }
+    .col-sm-3{ width: 25%; }
+    .col-sm-4{ width: 33.33%; }
+    .col-sm-5{ width: 41.66%; }
+    .col-sm-6{ width: 50%; }
+    .col-sm-7{ width: 58.33%; }
+    .col-sm-8{ width: 66.66%; }
+    .col-sm-9{ width: 75%; }
+    .col-sm-10{ width: 83.33%; }
+    .col-sm-11{ width: 91.66%; }
+    .col-sm-12{ width: 100%; }
+
+    .h-sm-50{ height: 50px; }
+    .h-sm-100{ height: 100px; }
+    .h-sm-200{ height: 200px; }
+    .h-sm-300{ height: 300px; }
+    .h-sm-400{ height: 400px; }
+    .h-sm-500{ height: 500px; }
+
+    .h-search{
+        display: block;
+    }
+    .search{
+        display: none;
+    }
+}
+
