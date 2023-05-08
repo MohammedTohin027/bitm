@@ -1,0 +1,12 @@
+.carousel-item img{
+    width: 100%;
+    height: 540px;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.bg-costom-1{
+    background: rgb(184, 253, 230);
+}
