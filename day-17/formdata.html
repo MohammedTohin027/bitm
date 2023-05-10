@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   
+</head>
+
+<body>
+
+    <div class="" style="width: 15%; margin: 50px auto; border: 1px solid rebeccapurple; padding: 30px 30px;">
+        <input type="text" name="display-result" id="display-result" readonly placeholder="Result"> <br><br>
+        <input type="number" name="first" id="first" placeholder="First Number"> <br> <br>
+        <input type="number" name="second" id="second" placeholder="Second Number"> <br> <br>
+        <button value="+" onclick="calculateBtn('+')" id="plus-btn">+</button>
+        <button value="-" onclick="calculateBtn('-')" id="minus-btn">-</button>
+        <button value="*" onclick="calculateBtn('*')" id="multiple-btn">*</button>
+        <button value="/" onclick="calculateBtn('/')" id="divided-btn">/</button>
+        <button value="%" onclick="calculateBtn('%')" id="remainder-btn">%</button> <br> <br>
+    </div>
+
+    <br><br><br>
+
+    <section>
+        <div id="container">
+            <table border="1" width="60%" align="center" id="display-user-table">
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <div class="" style="width: 15%; margin: 50px auto; border: 1px solid rebeccapurple; padding: 30px 30px;">
+
+        <input type="text" name="name" id="name" placeholder="Enter Name"> <br> <br>
+        <input type="email" name="email" id="email" placeholder="Enter Email"> <br> <br>
+        <button id="submit-btn">Submit</button>
+
+    </div>
+
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
